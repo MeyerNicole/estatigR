@@ -1,12 +1,12 @@
 # estatigR
 
-## O que é o estatigR? 🐅
+## 🐅 O que é o estatigR?
 
 O estatigR é o seu tigre copiloto que veio para facilitar o seu dia a dia com os projetos da Estat!
 
 Já pegou aquele projeto de descritiva enorme que repete os mesmos gráficos o tempo todo? 
 E aquele dia que você esqueceu completamente da sintaxe do ggplot e ficou uma tarde inteira pra fazer um simples
-gráfico de barras? Eu já!🤚 Nada mais irritante que isso, né?  
+gráfico de barras? Eu fui eu tava!🤚 Nada mais irritante que isso, né?  
 
 O estatigR foi criado justamente para essas situações! Temos funções escritas especificamente para gerar os 
 gráficos comuns que todo projeto precisa **SEM** sujeira: é só uma função! **SEM** precisar lembrar de sintaxe
