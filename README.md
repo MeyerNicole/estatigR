@@ -33,7 +33,7 @@ devtools::install_github("MeyerNicole/estatigR")
 
 ```
 
-🚀 Exemplos de uso
+## 🚀 Exemplos de uso
 
 ```
 library(estatigR)
@@ -59,7 +59,7 @@ Quer sugerir novas funções ou melhorias?
 
 * Implementação de mais tipos de gráficos
 
-👥 Equipe
+## 👥 Equipe
 
 **Project Lead:** @MeyerNicole
 
