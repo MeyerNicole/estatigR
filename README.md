@@ -6,14 +6,12 @@ O estatigR é o seu tigre copiloto que veio para facilitar o seu dia a dia com o
 
 Já pegou aquele projeto de descritiva enorme que repete os mesmos gráficos o tempo todo? 
 E aquele dia que você esqueceu completamente da sintaxe do ggplot e ficou uma tarde inteira pra fazer um simples
-gráfico de barras? Eu já!🤚 Nada mais irritante que isso, né? \\
+gráfico de barras? Eu já!🤚 Nada mais irritante que isso, né?  
 
 O estatigR foi criado justamente para essas situações! Temos funções escritas especificamente para gerar os 
 gráficos comuns que todo projeto precisa **SEM** sujeira: é só uma função! **SEM** precisar lembrar de sintaxe
 complicada: só o nome da função já basta! E **SEM** se estressar com a beleza do seu gráfico: o estatigR deixa
 ele padronizado e pronto pro relatório! 💙
-
----
 
 ## ✨ Por que usar o estatigR?
 
@@ -25,20 +23,22 @@ ele padronizado e pronto pro relatório! 💙
 
 * Fácil de expandir — novas funções podem ser adicionadas conforme a necessidade do time.
 
----
-
 ## 📦 Instalação
 
 ``` R
 # Instale a partir do GitHub
+
 install.packages("devtools")
 devtools::install_github("MeyerNicole/estatigR")
 
+```
+
 🚀 Exemplos de uso
+
+```
 library(estatigR)
 
 # Trabalhando nisso...
-
 ```
 
 💡 Dica: Explore a ajuda com `?estatigr` ou veja todas as funções disponíveis com `ls("package:estatigR")`.
@@ -61,9 +61,9 @@ Quer sugerir novas funções ou melhorias?
 
 👥 Equipe
 
-Project Lead: @MeyerNicole
+**Project Lead:** @MeyerNicole
 
-Desenvolvedores:
+**Desenvolvedores:**
 
 * membro1
 
