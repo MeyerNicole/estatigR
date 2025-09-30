@@ -35,10 +35,22 @@ devtools::install_github("MeyerNicole/estatigR")
 
 ## 🚀 Exemplos de uso
 
-```
+No exemplo abaixo, queremos entender qual o perfil dos indivíduos de uma pesquisa salarial sobre a área de dados
+(dados fictícios). Para isso, vamos fazer gráficos que mostrem o perfil dos indivíduos conforme o seu cargo.
+
+```R
 library(estatigR)
 
-# Trabalhando nisso...
+# Carregando a tabela inclusa no pacote
+data(salarios)
+
+# Visualizando a senioridade dos indivíduos por cargo
+
+estat_barra(dados = salarios, grupos = c("Senioridade", "Cargo"), fill_by = "Cargo")
+
+# Visualizando o estado dos indivíduos por cargo
+
+estat_barra(dados = salarios, grupos = c("Estado", "Cargo"), wrap_by = "Cargo")
 ```
 
 💡 Dica: Explore a ajuda com `?estatigr` ou veja todas as funções disponíveis com `ls("package:estatigR")`.
