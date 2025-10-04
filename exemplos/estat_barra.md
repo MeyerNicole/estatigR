@@ -53,6 +53,8 @@ head(salarios)
 estat_barra(salarios, grupos = "Cargo")
 ```
 
+<img width="665" height="506" alt="estat_barra_1_simples" src="https://github.com/user-attachments/assets/4e439ddd-5ab2-47e5-9e98-8252e2200e8d" />
+
 Fornecendo somente os dados e a variável de interesse, já temos um gráfico apresentável, porém podemos
 usar ainda mais opções para personalizar o nosso gráfico, como trocar as cores:
 
@@ -63,6 +65,9 @@ estat_barra(salarios, grupos = "Cargo", paleta = "seagreen")
 # Mudar a paleta do gráfico - Paleta de cores
 estat_barra(salarios, grupos = "Cargo", paleta = c("coral1", "palegreen3", "skyblue1"))
 ```
+<img width="665" height="506" alt="estat_barra_1_simples_verde" src="https://github.com/user-attachments/assets/86c809f7-ba1c-45db-862e-06733843c8ed" />
+
+<img width="665" height="506" alt="estat_barra_1_colorido" src="https://github.com/user-attachments/assets/c0b669fc-851b-4b98-a3ce-68ef538409f9" />
 
 Lembrando que o número de cores fornecidas na paleta deve ser 1 ou o número de categorias da variável.
 
@@ -80,6 +85,12 @@ estat_barra(salarios, grupos = "Cargo", paleta = c("coral1", "palegreen3", "skyb
 estat_barra(salarios, grupos = "Cargo", paleta = c("coral1", "palegreen3", "skyblue1"), rotulo = "np")
 ```
 
+<img width="665" height="506" alt="estat_barra_1_rotulo_n" src="https://github.com/user-attachments/assets/d3057e11-881b-4539-8c42-f6a2929b0375" />
+
+<img width="665" height="506" alt="estat_barra_1_rotulo_p" src="https://github.com/user-attachments/assets/47264b8a-6c7c-46eb-888d-88497f2835cb" />
+
+<img width="665" height="506" alt="estat_barra_1_rotulo_np" src="https://github.com/user-attachments/assets/b484f04a-6d36-40c9-a9ef-b500ac395413" />
+
 Passamos por todas as opções do `estat_barra`, mas ainda precisa adicionar ou mudar alguma coisa? 
 Sem problemas! Como o pacote foi construído em cima do `ggplot2`, o gráfico resultante é um objeto do ggplot,
 permitindo que você adicione camadas em cima dele, com a sintaxe normal do ggplot.
@@ -96,6 +107,9 @@ estat_barra(salarios, grupos = "Cargo", paleta = c("coral1", "palegreen3", "skyb
   theme(legend.position = "none")
 ```
 
+<img width="665" height="506" alt="estat_barra_1_final" src="https://github.com/user-attachments/assets/858461e9-adb9-477e-8863-70bff1333bf1" />
+
+
 ## 📊 Criando um gráfico composto (agrupamento com 2 variáveis)
 
 Agora, vamos dar um passo além e construir um gráfico representando 2 variáveis. Vamos analisar como os cargos
@@ -108,6 +122,10 @@ estat_barra(salarios, grupos = c("Cargo", "Estado"), fill_by = "Cargo")
 # Criar um gráfico de frequência dos cargos por estado - separação
 estat_barra(salarios, grupos = c("Cargo", "Estado"), wrap_by = "Estado")
 ```
+
+<img width="665" height="506" alt="estat_barra_2_simples" src="https://github.com/user-attachments/assets/6e164e5a-fc83-4418-8121-6d0c9c2bbc5f" />
+
+<img width="665" height="506" alt="estat_barra_2_sep_simples" src="https://github.com/user-attachments/assets/7b0a2d33-e76c-4925-a88e-a33ae0932c12" />
 
 Nos dois casos, podemos adicionar tudo o que vimos anteriormente sobre paletas e rótulos:
 
@@ -122,6 +140,12 @@ estat_barra(salarios, grupos = c("Cargo", "Estado"), wrap_by = "Estado",
             paleta = c("coral1", "palegreen3", "skyblue1"),
             rotulo = "p")
 ```
+
+<img width="665" height="506" alt="estat_barra_2_completo" src="https://github.com/user-attachments/assets/59f94ba8-3e4b-405e-9041-0796e93e66c8" />
+
+<img width="665" height="506" alt="estat_barra_2_sep_completo" src="https://github.com/user-attachments/assets/cc31631f-739d-4817-b258-4a211d46c951" />
+
+
 E podemos adicionar os últimos detalhes no gráfico utilizando o ggplot:
 
 ``` R
@@ -141,3 +165,6 @@ estat_barra(salarios, grupos = c("Cargo", "Estado"), wrap_by = "Estado",
         legend.position = "right")
 ```
 
+<img width="665" height="506" alt="estat_barra_2_final" src="https://github.com/user-attachments/assets/0867fff7-4d10-4dbb-a45a-01591b8d75b8" />
+
+<img width="665" height="506" alt="estat_barra_2_sep_final" src="https://github.com/user-attachments/assets/d674f8dd-2e71-417c-861e-41bc60a897f5" />
