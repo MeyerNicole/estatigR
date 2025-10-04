@@ -162,7 +162,8 @@ estat_barra(salarios, grupos = c("Cargo", "Estado"), wrap_by = "Estado",
   theme(axis.title.x = element_blank(), 
         axis.text.x = element_blank(),
         axis.ticks.x = element_blank(), 
-        legend.position = "right")
+        legend.position = "right") +
+  ylim(0, 5.5)
 ```
 
 <img width="665" height="506" alt="estat_barra_2_final" src="https://github.com/user-attachments/assets/0867fff7-4d10-4dbb-a45a-01591b8d75b8" />
