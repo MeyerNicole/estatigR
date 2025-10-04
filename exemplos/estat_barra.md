@@ -168,4 +168,4 @@ estat_barra(salarios, grupos = c("Cargo", "Estado"), wrap_by = "Estado",
 
 <img width="665" height="506" alt="estat_barra_2_final" src="https://github.com/user-attachments/assets/0867fff7-4d10-4dbb-a45a-01591b8d75b8" />
 
-<img width="665" height="506" alt="estat_barra_2_sep_final" src="https://github.com/user-attachments/assets/d674f8dd-2e71-417c-861e-41bc60a897f5" />
+<img width="665" height="506" alt="estat_barra_2_sep_final" src="https://github.com/user-attachments/assets/0953cd58-6c1f-482d-a4ef-7c9f478e0eb5" />
